@@ -1,4 +1,5 @@
 import { MiniKitProvider } from "@coinbase/onchainkit/minikit";
+import { farcasterMiniApp as miniAppConnector } from "@farcaster/miniapp-wagmi-connector";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { createConfig, http, WagmiProvider } from "wagmi";
 import { base } from "wagmi/chains";
@@ -11,7 +12,7 @@ const config = createConfig({
   transports: {
     [base.id]: http(),
   },
-  connectors: [],
+  connectors: [miniAppConnector()],
 });
 function App() {
   return (
