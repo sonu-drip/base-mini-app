@@ -8,7 +8,7 @@ const Home: React.FC = () => {
     if (!isFrameReady) setFrameReady();
   }, [isFrameReady, setFrameReady]);
 
-  return <div>Your app content goes here</div>;
+  return <div>Mini App is working Correctly</div>;
 };
 
 export default Home;

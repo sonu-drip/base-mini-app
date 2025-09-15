@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@coinbase/onchainkit": "^1.0.0",
+    "@tanstack/react-query": "^5.87.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "wagmi": "^2.16.9"

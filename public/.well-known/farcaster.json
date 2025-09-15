@@ -5,23 +5,27 @@
     "signature": "MHhkZTczOWUzMmYyY2JhNjJhNTAzYzA5MTU5ZmRkMWJkZDQ2NDA2YWVlYmJkMzUyMDY3MjYzNmNlMDdlNDU5OGM0NDk1ZjFmY2IyMGMxZjBlZDZmM2E4MTEyNGFlY2U3ZmViOWZkN2EwYmYzZTIxMWNjOGRiOWRmZTRmZTQ2ZGIxZTFj"
   },
   "baseBuilder": {
-    "allowedAddresses": ["0xe5B2b42F11F373eEf719B8eFa20B5E97dA6cb399"]
+    "allowedAddresses": ["0xe5B2b42F11F373eEf719B8eFa20B5E97dA6cb399", "0x2D50e1E8afA08Da79c232e10C14440FDa7bE3506"]
   },
   "frame": {
-    "version": "1",
+    "version": "next",
     "name": "Dripshop.live",
     "description": "Collect, trade, and open instant packs of digital trading cards. Build your collection and discover rare finds.",
-    "iconUrl": "https://cdn.dripshop.live/user-profile/qinOKP3hawX3YkB1uRxZG_medium.jpg",
+    "iconUrl": "https://cdn.dripshop.live/images/mini_app_logo.jpg",
     "homeUrl": "https://www.dripshop.live/instant-packs/far-caster",
     "ogTitle": "Dripshop Live - Trading Cards",
     "ogDescription": "Collect, trade, and open instant packs of digital trading cards. Build your collection today!",
-    "ogImageUrl": "https://cdn.dripshop.live/product/kB37hbPl4327vYo8i4Q6I.webp",
-    "heroImageUrl": "https://cdn.dripshop.live/product/kB37hbPl4327vYo8i4Q6I.webp",
-    "splashImageUrl": "https://cdn.dripshop.live/user-profile/qinOKP3hawX3YkB1uRxZG_medium.jpg",
+    "imageUrl": "https://cdn.dripshop.live/images/mini_app_hero.jpg",
+    "ogImageUrl": "https://cdn.dripshop.live/images/mini_app_hero.jpg",
+    "heroImageUrl": "https://cdn.dripshop.live/images/mini_app_hero.jpg",
+    "splashImageUrl": "https://cdn.dripshop.live/images/mini_app_logo.jpg",
     "splashBackgroundColor": "#ffffff",
     "primaryCategory": "shopping",
     "subtitle": "Digital trading card packs",
     "tagline": "Open packs, find rare cards",
-    "tags": ["trading", "cards", "collectibles", "packs", "digital"]
+    "tags": ["trading", "cards", "collectibles", "packs", "digital"],
+    "buttonTitle": "Launch Dripshop.live",
+    "noindex": false,
+    "screenshotUrls": ["https://cdn.dripshop.live/images/mini_app_home.png", "https://cdn.dripshop.live/images/mini_app_details.png", "https://cdn.dripshop.live/images/mini_app_open.png", "https://cdn.dripshop.live/images/mini_app_result.png"]
   }
 }
