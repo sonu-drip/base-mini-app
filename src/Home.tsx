@@ -15,7 +15,10 @@ const User = () => {
   useEffect(() => {
     if (isConnected) setLoading(false);
     if (!isConnected) {
-      connect({ connector: connectors[0] });
+      const connector = connectors[0];
+      if (connector.ready) {
+        connect({ connector });
+      }
     }
   }, [connect, connectors, isConnected]);
 
