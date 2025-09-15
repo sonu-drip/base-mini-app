@@ -1,4 +1,4 @@
-import { useMiniKit } from "@coinbase/onchainkit/minikit";
+import { useIsInMiniApp, useMiniKit } from "@coinbase/onchainkit/minikit";
 import React, { useEffect, useState } from "react";
 import { useAccount, useConnect } from "wagmi";
 
@@ -48,12 +48,17 @@ const User = () => {
 
 const Home: React.FC = () => {
   const { setFrameReady, isFrameReady } = useMiniKit();
+  const { isInMiniApp } = useIsInMiniApp();
 
   useEffect(() => {
     if (!isFrameReady) setFrameReady();
   }, [isFrameReady, setFrameReady]);
 
-  return <User />;
+  return isInMiniApp ? (
+    <User />
+  ) : (
+    <div>This demo is only available in the Mini App.</div>
+  );
 };
 
 export default Home;
