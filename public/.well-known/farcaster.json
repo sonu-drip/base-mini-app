@@ -1,11 +1,11 @@
 {
   "accountAssociation": {
     "header": "eyJmaWQiOjExMTkzOTEsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMjc0RDI2MmE5MjE1MzQ4MmFkQUJlNDc0RTM1QjkwMzU3MGE5NTAzIn0",
-    "payload": "eyJkb21haW4iOiJ3d3cuZHJpcHNob3AubGl2ZSJ9",
-    "signature": "MHhkZTczOWUzMmYyY2JhNjJhNTAzYzA5MTU5ZmRkMWJkZDQ2NDA2YWVlYmJkMzUyMDY3MjYzNmNlMDdlNDU5OGM0NDk1ZjFmY2IyMGMxZjBlZDZmM2E4MTEyNGFlY2U3ZmViOWZkN2EwYmYzZTIxMWNjOGRiOWRmZTRmZTQ2ZGIxZTFj"
+    "payload": "eyJkb21haW4iOiJiYXNlLW1pbmktYXBwLWNoaS52ZXJjZWwuYXBwIn0",
+    "signature": "MHg5MmNlMzI4YWJkMmEwZjQxM2YwMWNjZTk0ZmM2ZDliZjk2NmNmZDlkNTdjOTEzMzk2YTA3Y2NlYTQ3NjM3NjIwNDJiMjk1N2E2NjAyZjU4MjhmY2EyM2ZmNzZlY2FhNTQzNWExZGYxMzYxNTM2MDE2YTM0ODA2MWMzNWU3ZWY5NzFi"
   },
   "baseBuilder": {
-    "allowedAddresses": ["0xe5B2b42F11F373eEf719B8eFa20B5E97dA6cb399", "0x2D50e1E8afA08Da79c232e10C14440FDa7bE3506"]
+    "allowedAddresses": ["0x6BBf941a7c5e27ee2C61db21B43b577d1b3BC2c5"]
   },
   "frame": {
     "version": "next",
@@ -26,6 +26,11 @@
     "tags": ["trading", "cards", "collectibles", "packs", "digital"],
     "buttonTitle": "Launch Dripshop.live",
     "noindex": false,
-    "screenshotUrls": ["https://cdn.dripshop.live/images/mini_app_home.png", "https://cdn.dripshop.live/images/mini_app_details.png", "https://cdn.dripshop.live/images/mini_app_open.png", "https://cdn.dripshop.live/images/mini_app_result.png"]
+    "screenshotUrls": [
+      "https://cdn.dripshop.live/images/mini_app_home.png",
+      "https://cdn.dripshop.live/images/mini_app_details.png",
+      "https://cdn.dripshop.live/images/mini_app_open.png",
+      "https://cdn.dripshop.live/images/mini_app_result.png"
+    ]
   }
 }
