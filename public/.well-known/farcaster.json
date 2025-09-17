@@ -25,7 +25,7 @@
     "tagline": "Open packs, find rare cards",
     "tags": ["trading", "cards", "collectibles", "packs", "digital"],
     "buttonTitle": "Launch Dripshop.live",
-    "noindex": false,
+    "noindex": true,
     "screenshotUrls": [
       "https://cdn.dripshop.live/images/mini_app_home.png",
       "https://cdn.dripshop.live/images/mini_app_details.png",
